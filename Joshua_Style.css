@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
 body {
     background-color: #f7f9fc;
     margin: 0px;
@@ -17,17 +19,28 @@ nav {
 nav ul {
 	list-style: none;
     float: right;
-    font-family: sans-serif;
+    font-family: g;
     height: 20px;
 }
 ul li {
+    font-family: Poppins;
 	float: left;
 	color: #FFFFFF;
-	font-size: 14px;
+	font-size: 16px;
 	text-align: left;
 	margin-right: 25px;
     font-weight: bold;
     overflow-y: auto;
+}
+
+a:link{
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+a:hover{
+    color: #008BFF;
+    text-decoration: none;
 }
 
 .Profile-container{
@@ -42,6 +55,8 @@ ul li {
     height: 20%;
     margin-top: 4%;
     display: inline-block;
+    font-family: Poppins;
+    font-weight: lighter;
 }
  
 .row:after {
@@ -65,10 +80,37 @@ ul li {
     align-items: center;
     height: 100%;
     display: inline;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-left: 5%;
  } 
  
+ .tomboledit {
+        background-color: #008BFF; /* Green */
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 14px;
+    border-radius: 6px;
+    }
+    
+    .tombolresume {
+        background-color: white; /* Green */
+    border: 2px;
+    border-style: solid;
+    border-color: #008BFF ;
+    color: #008BFF;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 14px;
+    margin-left: 18px;
+    border-radius: 6px;
+    }
+    
  .column-data {
     float: left;
     width: 14%;
@@ -77,8 +119,8 @@ ul li {
     align-items: center;
     height: 100%;
     display: inline;
-    padding-top: 4%;
-    padding-left: 4%;
+    padding-top: 2.5%;
+    padding-left: 10%;
     font-weight: bold;
  } 
 
@@ -90,12 +132,12 @@ ul li {
     align-items: center;
     height: 100%;
     display: inline;
-    padding-top: 4%;
-    padding-left: 4%;
+    padding-top: 2.5%;
  } 
 
 .form-container {
     text-align: center; 
+    padding-bottom: 0px;
 
 }
 .form {
@@ -106,6 +148,8 @@ ul li {
     margin-top: 4%;
     margin-bottom: 4%;
     display: inline-block;
+    font-family: Poppins;
+    padding-bottom: 0px;
 }
 
 .isi-form {
@@ -117,15 +161,23 @@ ul li {
     margin-bottom: 16px;
     resize: vertical;
     text-align:left;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .lebarfield {
     text-align: center;
     width: 80%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: left;
 }
 
 .field {
     margin-top: 2%;
+    font-family: Poppins;
+    font-weight: bold;
+
 }
 input[type=text], select {
     width: 100%;
@@ -141,11 +193,13 @@ input[type=submit] {
     width: 100%;
     background-color: #008BFF;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 12px 20px;
+    margin: 6px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: poppins;
+    font-weight: bold;
 }
   
 input[type=submit]:hover {
